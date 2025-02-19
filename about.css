@@ -93,6 +93,9 @@ header{
 .hero__img{
     max-width: 600px;
     width: 100%;
+    position: absolute;
+    right: 200px;
+    bottom: 178px;
     
 
 }
