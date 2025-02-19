@@ -14,7 +14,7 @@ header{
     max-width: 1182px;
     width: 100%;
     margin: 0 auto;
-    padding: 32px 0;
+    padding: 32px 40px;
 
 }
 .container__box{
@@ -78,28 +78,36 @@ header{
     margin-top: 70px;
     padding: 13px 46px;
     border-radius: 100px;
-    border: none;
     background-color:#BA8D5B;
     font-weight: 700;
     line-height: 22px;
     color: white;
+    border: 2px solid #BA8D5B;
+}
+.hero__button:hover{
+    background-color: inherit;
+    border: 2px solid #BA8D5B;
+    transition-duration: 0.5s;
+    color: #BA8D5B;
 }
 .hero__img{
-    max-width: 700px;
+    max-width: 600px;
     width: 100%;
     
+
 }
 .wrap{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 44px;
+    padding: 40px 0;
 }
 .wrap__title{
     font-weight: 800;
     font-size: 32px;
 }
 .wrap__box{
-    padding: 48px 0;
+   
     display: flex;
     align-items: start;
     gap: 40px;
@@ -133,7 +141,7 @@ header{
 }
 .wrapper{
     background: #F9F8F7;
-    padding: 48px 87px;
+    padding: 40px 40px;
 }
 .wrapper__title{
     font-weight: 800;
@@ -171,7 +179,79 @@ header{
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+}
+.wrapper__h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color:#0EB182;
+    margin-top: 18px;
+}
+.customers_title{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #0F1826;
+}
+.customers_text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #607987;
+    margin-top: 24px;
+}
+.customers_box{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 31px;
+}
+.customers_inner_box{
+    padding: 38px 33px;
+    background-color: #F9F8F7;
+    display: inline-block;
+    border-radius: 8px;
 
 }
+@media  screen and (max-width: 968px){
+    .hero__img{
+        display: none;
+      }
+    .hero_inner_box{
+        max-width: 600px;
+        width: 100%;
+       
+    }
+    .hero__text{
+        max-width: 343px;
+        width: 100%;
+        color: #607987;
+    }
+    .hero__button{
+        margin-top: 24px;   
+    }
+    .wrap{
+        grid-template-columns: 1fr;
+    }
+    .wrap__box{
+        padding: 20px 0;
+    }
+
+  
+}
+@media  screen and (max-width: 1060px){
+    
+    .hero__img{
+      max-width: 600px;
+    }
+}
+@media  screen and (max-width: 1000px){
+    .hero__img{
+      max-width: 500px;
+    }
+}
+
+
 
 
