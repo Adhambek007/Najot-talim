@@ -9,25 +9,25 @@
 <body>
     <header>
         <div class="container">
-            <!-- <div class="container__box">
-                <img src="./img/Najot talim logo.svg" alt="Najot Talim__logo">
+             <div class="container__box">
+                <img class="container__box__img" src="./img/Najot talim logo.svg" alt="Najot Talim__logo">
                 <nav class="container__nav">
                     <ul class="header__menu">
                         <li class="header__link"><a href="#">Kurslar</a></li>
                         <li class="header__link"><a href="#">Blog</a></li>
-                        <li class="header__link"><a  class="header__href" href="#">Kirish</a></li>
+                        <li class="header__menu__link"><a  class="header__href" href="#">Kirish</a></li>
                         <li>
-                            <img src="./img/oy_logo.svg" alt="oy_logo">
+                            <img class="header__menu__img
+                            " src="./img/oy_logo.svg" alt="oy_logo">
                         </li>
+                        <li><img class="header_burder" src="./img/burger.svg" alt="burger"></li>
                     </ul>
     
                 </nav>
-
-            </div> -->
-          
+            </div> 
         </div>
     </header>
-    <main>
+     <main>
         <section class="hero">
             <div class="hero__box container">
                 <div class="hero_inner_box">
@@ -46,11 +46,13 @@
                         Kurslarni ko‘rish
                     </button>
                 </div>
-                <img class="hero__img" src="./img/bg_herosvg.png" alt="bg_hero">
+                <div class="hero__img">
+
+                </div>
             </div>
            
         </section>
-        <section class="container">
+         <section class="container">
             <h1 class="wrap__title">Bizning afzalliklarimiz</h1>
             <div class="wrap"> 
                 <div class="wrap__box">
@@ -73,7 +75,7 @@
                             mumkin, internet va noutbuk bo‘lsa bas.</p>
                     </div>
                 </div> 
-                <div class="wrap__box">
+                 <div class="wrap__box">
                     <img src="./img/hat.svg" alt="hat">
                     <div class="wrap__inner__box">
                         <h4 class="wrap__inner__title">Onlayn akademiya</h4>
@@ -98,9 +100,9 @@
                 <div class="wrap__child">
                     <h5 class="wrap__child__title">Ko‘proq</h5>
                     <img src="./img/advantages.svg" alt="advantages">
-            </div>
+            </div> 
         </section>
-        <section class="wrapper">
+         <section class="wrapper">
         <div class="container">
             <div class="wrapper__box">
                 <h1 class="wrapper__title">Yo‘nalishlar bo‘yicha kurslar</h1>
@@ -111,11 +113,13 @@
                 <div class="wrapper__inner__box">
                     <div class="wrapper__button">
                         <h5 class="wrapper__button__title">Dasturlash foundation</h5>
+                        <p class="wrapper__button__p">Foundation dasturlash kursida C va Python</p>
                         <p class="wrapper__button__text">Foundation dasturlash kursida </p>
 
                     </div>
                     <div class="wrapper__button">
                         <h5 class="wrapper__button__title">.NET mutaxassislik kursi</h5>
+                        <p class="wrapper__button__p">.NET mutaxassislik kursi yordamida universal </p>
                         <p class="wrapper__button__text">.NET mutaxassislik kursi</p>
 
                     </div>
@@ -124,24 +128,24 @@
                 <h4 class="wrapper__h4">Barcha kurslarni ko‘rish</h4>
             </div>
         </div>   
-        </section>
-        <section class="container">
+        </section> 
+         <section class="container">
             <div class="customers">
                 <h1 class="customers_title">Bitiruvchilarimizning ish joylari:</h1>
                 <p class="customers_text">Eng yaxshi bitiruvchilarimiz nufuzli tashkilot va kompaniyalarda faoliyat 
                     yuritadi. Zamonaviy kasb egalariga doim va har yerda talab yuqori bo‘ladi.
                 </p>
                 <div class="customers_box">
-                    <div class="customers_inner_box">
+                    <div class="customers_inner_img">
                         <img src="./img/humo_card.svg" alt="HUMO">
                     </div>
-                    <div class="customers_inner_box">
+                    <div class="customers_inner_img">
                         <img src="./img/humo_card.svg" alt="HUMO">
                     </div>
-                    <div class="customers_inner_box">
+                    <div class="customers_inner_img">
                         <img src="./img/humo_card.svg" alt="HUMO">
                     </div>
-                    <div class="customers_inner_box">
+                    <div class="customers_inner_img">
                         <img src="./img/humo_card.svg" alt="HUMO">
                     </div>
                     <div class="customers_inner_box">
@@ -190,7 +194,69 @@
                 </div>
 
             </div>
-        </section>  
-    </main>
+        </section> 
+        <section class="container">
+            <div class="graduates">
+                <div class="graduates_box">
+                    <h4 class="graduates_title">Bitiruvchilarimizdan izohlar</h4>
+                    <p class="graduates_text">Oʻquv kurslarimiz, ustozlar, qoʻlga kiritilgan bilim va koʻnikmalar,
+                     olingan natijalar haqida bitiruvchilarimizdan eshiting hamda ulardan kerakli tavsiyalar oling.
+                    </p>
+                </div>
+                <div class="graduates_inner_box">
+                    <div class="graduates_inner_png_box">
+                        <div class="example">
+                        </div>
+                        <img class="graduates_png" src="./img/people.png" alt="people_img">
+                        <img class="graduates_svg" src="./img/vedio_svg.svg" alt="vedio_svg">
+                        <div class="graduates_box_text">
+                            <p class="graduates_inner_number">25.01.2023</p>
+                            <p class="graduates_inner_text_smm">SMM-menejer</p>
+                            <p class="graduates_inner_text">Abdumannof Tursunov</p>
+                        </div>
+                    </div>
+                    <div class="graduates_inner_png_box2">
+                        <div class="example">
+                        </div>
+                        <img class="graduates_png" src="./img/people.png" alt="people_img">
+                        <img class="graduates_svg" src="./img/vedio_svg.svg" alt="vedio_svg">
+                        <div class="graduates_box_text">
+                            <p class="graduates_inner_number">25.01.2023</p>
+                            <p class="graduates_inner_text_smm">SMM-menejer</p>
+                            <p class="graduates_inner_text">Abdumannof Tursunov</p>
+                        </div>
+                    </div>
+                    <div class="graduates_inner_png_box3">
+                        <div class="example">
+                        </div>
+                        <img class="graduates_png" src="./img/people.png" alt="people_img">
+                        <img class="graduates_svg" src="./img/vedio_svg.svg" alt="vedio_svg">
+                        <div class="graduates_box_text">
+                            <p class="graduates_inner_number">25.01.2023</p>
+                            <p class="graduates_inner_text_smm">SMM-menejer</p>
+                            <p class="graduates_inner_text">Abdumannof Tursunov</p>
+                        </div>
+                       
+
+                    </div>
+                    <div class="graduates_inner_png">
+                        <div class="example">
+                        </div>
+                        <img class="graduates_png" src="./img/people.png" alt="people_img">
+                        <img class="graduates_svg" src="./img/vedio_svg.svg" alt="vedio_svg">
+                        <div class="graduates_box_text">
+                            <p class="graduates_inner_number">25.01.2023</p>
+                            <p class="graduates_inner_text_smm">SMM-menejer</p>
+                            <p class="graduates_inner_text">Abdumannof Tursunov</p>
+                        </div>
+                       
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main> 
 </body>
 </html>
