@@ -14,7 +14,8 @@ header{
     max-width: 1182px;
     width: 100%;
     margin: 0 auto;
-    padding: 32px 40px;
+    padding: 17px 40px;
+    padding-bottom: 60px;
 
 }
 .container__box{
@@ -96,7 +97,7 @@ header{
     background-image: url(./img/bg_herosvg.png);
     background-position-x: 100%;
     position: relative;
-    top: 31px;
+    top: 60px;
     background-size: 700px;
     background-repeat: no-repeat;
 }
@@ -104,14 +105,14 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 44px;
-    padding: 40px 0;
+    padding: 48px 0;
 }
 .wrap__title{
     font-weight: 800;
     font-size: 32px;
+    margin-top: 35px;
 }
 .wrap__box{
-   
     display: flex;
     align-items: start;
     gap: 40px;
@@ -319,6 +320,91 @@ header{
     overflow: hidden;
     border-radius: 22px;
 }
+.request{
+    display: flex;
+  
+}
+.request_box{
+    background-color: #FFFFFF;
+    background-color: #F9F8F7;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px ;
+    padding: 32px 32px;
+    padding-right: 126px;
+}
+.request_inner_box{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 45px 40px;
+}
+.request_title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #0F1826;
+}
+.request_text{
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #607987;
+}
+.request_span{
+    font-weight: 500;
+    font-size: 16px;
+    color: #BA8D5B;
+}
+.request_name{
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.28px;
+    color: #00000059;
+
+}
+.requesti_input{
+    margin-top: 6px;
+    max-width: 368px;
+    width: 100%;
+    padding: 14px 17px;
+    border-radius: 100px;
+    border: 1px solid #DADADA
+}
+.request_p{
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+}
+.request_p_span{
+    color: #BA8D5B;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.request__button{
+    margin-top: 22px;
+    padding: 14px 128px;
+    background-color: #BA8D5B;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    border: 2px solid white;
+
+}
+.request__button:hover{
+    border: 2px solid rgb(124, 79, 231);
+    background-color: #F9F8F7;
+    color:rgb(124, 79, 231);
+
+
+
+}
+
+
 
 
 @media  screen and (max-width: 725px){
