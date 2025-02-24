@@ -33,12 +33,14 @@ header{
     color: black;
     font-weight: 500;
     line-height: 22px;
+  
 }
 .header__href{
     background-color: white;
     padding: 11px 49px;
     border-radius: 100px;
     border: 2px solid white;
+    color: black;
 }
 .header__href:hover{
     background-color: inherit;
